@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+@theme {
+  /* Pastel Color Palette */
+  --color-pastel-pink: #f8b4c8;
+  --color-pastel-pink-light: #fce4ec;
+  --color-pastel-purple: #d1b3e8;
+  --color-pastel-purple-light: #ede7f6;
+  --color-pastel-blue: #a8d8ea;
+  --color-pastel-blue-light: #e3f2fd;
+  --color-pastel-mint: #b5ead7;
+  --color-pastel-mint-light: #e8f5e9;
+  --color-pastel-yellow: #ffeaa7;
+  --color-pastel-yellow-light: #fffde7;
+  --color-pastel-peach: #ffd5c2;
+  --color-pastel-peach-light: #fff3e0;
+  --color-pastel-lavender: #c3aed6;
+  --color-pastel-cream: #fef9ef;
+  --color-pastel-gray: #f0ebe3;
+  --color-pastel-gray-dark: #d5cec5;
+
+  /* Semantic Colors */
+  --color-primary: #d1b3e8;
+  --color-primary-dark: #b794d6;
+  --color-secondary: #f8b4c8;
+  --color-secondary-dark: #f09ab5;
+  --color-accent: #a8d8ea;
+  --color-accent-dark: #7ec8e3;
+  --color-success: #b5ead7;
+  --color-warning: #ffeaa7;
+  --color-danger: #f8b4c8;
+  --color-surface: #fef9ef;
+  --color-surface-alt: #f0ebe3;
+  --color-text-primary: #4a3f5c;
+  --color-text-secondary: #7a6f8a;
+  --color-text-muted: #a89bb5;
+  --color-border: #e8e0d8;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Smooth transitions for interactive elements */
+button, a, input, select, textarea {
+  transition: all 0.2s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-pastel-gray-dark);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
