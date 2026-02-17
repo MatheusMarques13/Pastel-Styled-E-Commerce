@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "newCollection": "✨ Neue Frühlingskollektion",
+    "title": "Entdecke Deine",
+    "titleHighlight": "Pastell",
+    "titleEnd": "Ästhetik",
+    "description": "Kuratierte Lifestyle-Produkte in weichen, traumhaften Farben. Von Mode bis zur Inneneinrichtung, finde deine perfekte Pastell-Kombination."
+  },
+  "search": {
+    "placeholder": "Produkte suchen..."
+  },
+  "categories": {
+    "all": "Alle",
+    "clothing": "Kleidung",
+    "accessories": "Zubehör",
+    "home": "Zuhause",
+    "beauty": "Schönheit",
+    "electronics": "Elektronik"
+  },
+  "products": {
+    "count": "{count} Produkt",
+    "countPlural": "{count} Produkte",
+    "noResults": "Keine Produkte gefunden. Versuche eine andere Suche oder Kategorie.",
+    "items": {
+      "1": {
+        "name": "Gemütlicher Strickpullover",
+        "description": "Ein wunderschön weicher Strickpullover in Pastelltönen. Perfekt zum Schichten oder alleine an kühleren Tagen zu tragen. Hergestellt aus hochwertigem Bio-Baumwoll-Mix."
+      },
+      "2": {
+        "name": "Minimalistische Uhr",
+        "description": "Elegante minimalistische Uhr mit pastellrosa Lederarmband und Roségold-Akzenten. Wasserdicht und perfekt für den täglichen Gebrauch."
+      },
+      "3": {
+        "name": "Keramikvasen-Set",
+        "description": "Set aus 3 handgefertigten Keramikvasen in komplementären Pastelltönen. Jedes Stück ist einzigartig und verleiht jedem Raum einen Hauch von Eleganz."
+      },
+      "4": {
+        "name": "Lavendel-Körperlotion",
+        "description": "Luxuriöse Körperlotion mit echtem Lavandelextrakt infundiert. Tief hydratisierende Formel, die die Haut seidig weich und zart duftend hinterlässt."
+      },
+      "5": {
+        "name": "Drahtlose Ohrhörer",
+        "description": "Premium drahtlose Ohrhörer in pastellmintfarbenem Etui. Kristallklares Klang, aktive Geräuschunterdrückung und 24-Stunden-Akku."
+      },
+      "6": {
+        "name": "Seidenschal",
+        "description": "Luxuriöser 100% Seidenschal mit traumhaftem Aquarellmuster. Vielseitiges Accessoire, das als Stirnband, Halstuch oder Taschenakzent getragen werden kann."
+      },
+      "7": {
+        "name": "Duftkerzen-Trio",
+        "description": "Drei handgegossene Sojakerzen in Vanille, Rose und Jasmin. Jede Kerze brennt 40+ Stunden und kommt in einem schönen Pastellglas."
+      },
+      "8": {
+        "name": "Baumwoll-Tasche",
+        "description": "Stabile Bio-Baumwoll-Tasche mit niedlichem Stickdesign. Geräumig genug für Einkäufe, Bücher oder tägliche Essentials."
+      }
+    }
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Kostenloser Versand",
+      "description": "Bei Bestellungen über 50 $"
+    },
+    "easyReturns": {
+      "title": "Einfache Rückgaben",
+      "description": "30-Tage-Rückgaberecht"
+    },
+    "securePayment": {
+      "title": "Sichere Zahlung",
+      "description": "SSL-verschlüsseltes Checkout"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Immer da, um zu helfen"
+    }
+  },
+  "settings": {
+    "theme": "Thema",
+    "language": "Sprache",
+    "chooseTheme": "Wähle dein bevorzugtes Farbthema",
+    "selectLanguage": "Wähle deine bevorzugte Sprache"
+  }
+}

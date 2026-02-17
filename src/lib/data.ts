@@ -25,13 +25,12 @@ export const categories = [
   "Electronics",
 ];
 
-export const products: Product[] = [
+export const getProducts = (t: (key: string) => string): Product[] => [
   {
     id: "1",
-    name: "Cozy Knit Sweater",
+    name: t("products.items.1.name"),
     price: 68.0,
-    description:
-      "A beautifully soft knit sweater in pastel tones. Perfect for layering or wearing on its own during cooler days. Made from premium organic cotton blend.",
+    description: t("products.items.1.description"),
     image: "🧶",
     category: "Clothing",
     rating: 4.8,
@@ -41,10 +40,9 @@ export const products: Product[] = [
   },
   {
     id: "2",
-    name: "Minimalist Watch",
+    name: t("products.items.2.name"),
     price: 129.0,
-    description:
-      "Elegant minimalist watch with a pastel pink leather strap and rose gold accents. Water-resistant and perfect for everyday wear.",
+    description: t("products.items.2.description"),
     image: "⌚",
     category: "Accessories",
     rating: 4.9,
@@ -54,10 +52,9 @@ export const products: Product[] = [
   },
   {
     id: "3",
-    name: "Ceramic Vase Set",
+    name: t("products.items.3.name"),
     price: 45.0,
-    description:
-      "Set of 3 handcrafted ceramic vases in complementary pastel shades. Each piece is unique and adds a touch of elegance to any room.",
+    description: t("products.items.3.description"),
     image: "🏺",
     category: "Home",
     rating: 4.7,
@@ -66,10 +63,9 @@ export const products: Product[] = [
   },
   {
     id: "4",
-    name: "Lavender Body Lotion",
+    name: t("products.items.4.name"),
     price: 32.0,
-    description:
-      "Luxurious body lotion infused with real lavender extract. Deeply moisturizing formula that leaves skin silky smooth and delicately scented.",
+    description: t("products.items.4.description"),
     image: "🧴",
     category: "Beauty",
     rating: 4.6,
@@ -78,10 +74,9 @@ export const products: Product[] = [
   },
   {
     id: "5",
-    name: "Wireless Earbuds",
+    name: t("products.items.5.name"),
     price: 89.0,
-    description:
-      "Premium wireless earbuds in a pastel mint case. Crystal-clear sound, active noise cancellation, and 24-hour battery life.",
+    description: t("products.items.5.description"),
     image: "🎧",
     category: "Electronics",
     rating: 4.5,
@@ -91,10 +86,9 @@ export const products: Product[] = [
   },
   {
     id: "6",
-    name: "Silk Scarf",
+    name: t("products.items.6.name"),
     price: 55.0,
-    description:
-      "Luxurious 100% silk scarf with a dreamy watercolor print. Versatile accessory that can be worn as a headband, neck scarf, or bag accent.",
+    description: t("products.items.6.description"),
     image: "🧣",
     category: "Accessories",
     rating: 4.8,
@@ -103,10 +97,9 @@ export const products: Product[] = [
   },
   {
     id: "7",
-    name: "Scented Candle Trio",
+    name: t("products.items.7.name"),
     price: 38.0,
-    description:
-      "Three hand-poured soy candles in vanilla, rose, and jasmine. Each candle burns for 40+ hours and comes in a beautiful pastel glass jar.",
+    description: t("products.items.7.description"),
     image: "🕯️",
     category: "Home",
     rating: 4.9,
@@ -115,10 +108,9 @@ export const products: Product[] = [
   },
   {
     id: "8",
-    name: "Cotton Tote Bag",
+    name: t("products.items.8.name"),
     price: 28.0,
-    description:
-      "Sturdy organic cotton tote bag with a cute embroidered design. Spacious enough for groceries, books, or everyday essentials.",
+    description: t("products.items.8.description"),
     image: "👜",
     category: "Accessories",
     rating: 4.4,

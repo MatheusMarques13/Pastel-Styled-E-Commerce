@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "newCollection": "✨ Nueva Colección de Primavera",
+    "title": "Descubre Tu",
+    "titleHighlight": "Estética",
+    "titleEnd": "Pastel",
+    "description": "Productos de estilo de vida curados en colores suaves y soñadores. Desde moda hasta decoración del hogar, encuentra tu combinación pastel perfecta."
+  },
+  "search": {
+    "placeholder": "Buscar productos..."
+  },
+  "categories": {
+    "all": "Todos",
+    "clothing": "Ropa",
+    "accessories": "Accesorios",
+    "home": "Hogar",
+    "beauty": "Belleza",
+    "electronics": "Electrónicos"
+  },
+  "products": {
+    "count": "{count} producto",
+    "countPlural": "{count} productos",
+    "noResults": "No se encontraron productos. Prueba una búsqueda o categoría diferente.",
+    "items": {
+      "1": {
+        "name": "Suéter de Punto Acogedor",
+        "description": "Un suéter de punto maravillosamente suave en tonos pastel. Perfecto para capas o usar solo en días más frescos. Hecho de una mezcla premium de algodón orgánico."
+      },
+      "2": {
+        "name": "Reloj Minimalista",
+        "description": "Reloj minimalista elegante con correa de cuero rosa pastel y acentos en oro rosa. Resistente al agua y perfecto para uso diario."
+      },
+      "3": {
+        "name": "Set de Jarrones Cerámicos",
+        "description": "Set de 3 jarrones cerámicos artesanales en tonos pastel complementarios. Cada pieza es única y añade un toque de elegancia a cualquier habitación."
+      },
+      "4": {
+        "name": "Loción Corporal de Lavanda",
+        "description": "Loción corporal lujosa infusionada con extracto real de lavanda. Fórmula profundamente hidratante que deja la piel sedosa y delicadamente perfumada."
+      },
+      "5": {
+        "name": "Auriculares Inalámbricos",
+        "description": "Auriculares inalámbricos premium en estuche menta pastel. Sonido cristalino, cancelación activa de ruido y 24 horas de duración de batería."
+      },
+      "6": {
+        "name": "Bufanda de Seda",
+        "description": "Bufanda de seda 100% lujosa con un estampado acuarela soñador. Accesorio versátil que se puede usar como diadema, bufanda para el cuello o acento para bolso."
+      },
+      "7": {
+        "name": "Trío de Velas Aromáticas",
+        "description": "Tres velas de soja vertidas a mano en vainilla, rosa y jazmín. Cada vela arde por 40+ horas y viene en un hermoso frasco de vidrio pastel."
+      },
+      "8": {
+        "name": "Bolso Tote de Algodón",
+        "description": "Bolso tote resistente de algodón orgánico con un diseño bordado adorable. Lo suficientemente espacioso para compras, libros o esenciales diarios."
+      }
+    }
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Envío Gratis",
+      "description": "En pedidos superiores a $50"
+    },
+    "easyReturns": {
+      "title": "Devoluciones Fáciles",
+      "description": "Política de devolución de 30 días"
+    },
+    "securePayment": {
+      "title": "Pago Seguro",
+      "description": "Pago encriptado SSL"
+    },
+    "support": {
+      "title": "Soporte 24/7",
+      "description": "Siempre aquí para ayudar"
+    }
+  },
+  "settings": {
+    "theme": "Tema",
+    "language": "Idioma",
+    "chooseTheme": "Elige tu tema de color preferido",
+    "selectLanguage": "Selecciona tu idioma preferido"
+  }
+}

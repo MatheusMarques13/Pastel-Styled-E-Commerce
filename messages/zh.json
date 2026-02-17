@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "newCollection": "✨ 新春季系列",
+    "title": "发现您的",
+    "titleHighlight": "柔和",
+    "titleEnd": "美学",
+    "description": "精心挑选的柔和梦幻色彩的生活方式产品。从时尚到家居装饰，找到您完美的柔和色彩组合。"
+  },
+  "search": {
+    "placeholder": "搜索产品..."
+  },
+  "categories": {
+    "all": "全部",
+    "clothing": "服装",
+    "accessories": "配饰",
+    "home": "家居",
+    "beauty": "美容",
+    "electronics": "电子产品"
+  },
+  "products": {
+    "count": "{count} 产品",
+    "countPlural": "{count} 产品",
+    "noResults": "未找到产品。请尝试不同的搜索或类别。",
+    "items": {
+      "1": {
+        "name": "舒适针织毛衣",
+        "description": "柔和色调中令人惊叹的柔软针织毛衣。非常适合在凉爽的日子分层穿着或单独穿着。由优质有机棉混纺制成。"
+      },
+      "2": {
+        "name": "极简手表",
+        "description": "优雅的极简手表，配有柔和粉色皮革表带和玫瑰金色调。水 resistant，非常适合日常穿着。"
+      },
+      "3": {
+        "name": "陶瓷花瓶套装",
+        "description": "3件手工陶瓷花瓶套装，采用互补的柔和色调。每件作品都是独一无二的，为任何房间增添优雅气息。"
+      },
+      "4": {
+        "name": "薰衣草身体乳液",
+        "description": "注入真正薰衣草提取物的奢华身体乳液。深度滋润配方，让肌肤丝滑柔顺，散发淡淡香气。"
+      },
+      "5": {
+        "name": "无线耳机",
+        "description": "柔和薄荷色外壳中的优质无线耳机。水晶般清晰的声音、主动降噪和24小时电池续航。"
+      },
+      "6": {
+        "name": "丝绸围巾",
+        "description": "100%奢华丝绸围巾，带有梦幻水彩印花。多功能配饰，可作为头带、围巾或包包点缀穿着。"
+      },
+      "7": {
+        "name": "香薰蜡烛三件套",
+        "description": "三支手工浇注大豆蜡烛，香味为香草、玫瑰和茉莉。每支蜡烛燃烧40+小时，装在美丽的柔和玻璃罐中。"
+      },
+      "8": {
+        "name": "棉质手提包",
+        "description": "有机棉质耐用手提包，带有可爱的刺绣设计。足够宽敞，可装杂货、书籍或日常必需品。"
+      }
+    }
+  },
+  "features": {
+    "freeShipping": {
+      "title": "免费配送",
+      "description": "订单超过50美元"
+    },
+    "easyReturns": {
+      "title": "轻松退货",
+      "description": "30天退货政策"
+    },
+    "securePayment": {
+      "title": "安全支付",
+      "description": "SSL加密结账"
+    },
+    "support": {
+      "title": "24/7支持",
+      "description": "随时为您提供帮助"
+    }
+  },
+  "settings": {
+    "theme": "主题",
+    "language": "语言",
+    "chooseTheme": "选择您喜欢的颜色主题",
+    "selectLanguage": "选择您喜欢的语言"
+  }
+}

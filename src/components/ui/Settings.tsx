@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { useTheme, themes, ThemeId } from "@/lib/theme-context";
 import { SettingsIcon, GlobeIcon, PaletteIcon, MonitorIcon, ChevronDownIcon, CheckIcon } from "@/components/ui/Icons";
 
@@ -16,7 +18,9 @@ const languages = [
 ];
 
 export function SettingsDropdown() {
+  const t = useTranslations();
   const { currentTheme, setTheme } = useTheme();
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<"language" | "theme">("theme");
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -54,7 +58,7 @@ export function SettingsDropdown() {
               }`}
             >
               <PaletteIcon className="w-4 h-4" />
-              Theme
+              {t('settings.theme')}
             </button>
             <button
               onClick={() => setActiveTab("language")}
@@ -65,7 +69,7 @@ export function SettingsDropdown() {
               }`}
             >
               <GlobeIcon className="w-4 h-4" />
-              Language
+              {t('settings.language')}
             </button>
           </div>
 
@@ -73,7 +77,7 @@ export function SettingsDropdown() {
           <div className="max-h-80 overflow-y-auto">
             {activeTab === "theme" ? (
               <div className="p-3">
-                <p className="text-xs text-text-muted mb-3 px-1">Choose your preferred color theme</p>
+                <p className="text-xs text-text-muted mb-3 px-1">{t('settings.chooseTheme')}</p>
                 <div className="space-y-1">
                   <button
                     onClick={() => setTheme("system")}
@@ -111,11 +115,15 @@ export function SettingsDropdown() {
               </div>
             ) : (
               <div className="p-3">
-                <p className="text-xs text-text-muted mb-3 px-1">Select your preferred language</p>
+                <p className="text-xs text-text-muted mb-3 px-1">{t('settings.selectLanguage')}</p>
                 <div className="space-y-1">
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
+                      onClick={() => {
+                        router.push(`/${lang.code}`);
+                        setIsOpen(false);
+                      }}
                       className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-left text-text-secondary hover:bg-surface-alt hover:text-text-primary transition-colors"
                     >
                       <span className="text-lg">{lang.flag}</span>

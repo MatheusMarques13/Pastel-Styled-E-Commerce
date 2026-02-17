@@ -36,6 +36,9 @@ The template has been expanded into a full e-commerce application called "YourSh
 - [x] Added Wishlist functionality with context, heart button on products, and wishlist page
 - [x] Added Share button in header with native Web Share API
 - [x] Header and Footer now use dynamic theme colors
+- [x] Implemented full internationalization (i18n) with next-intl for 8 languages (English, Spanish, French, German, Italian, Portuguese, Japanese, Chinese)
+- [x] All UI text, product names, descriptions, and categories are now translatable
+- [x] Language selector in Settings now functional, allowing users to switch languages dynamically
 
 ## Current Structure
 
@@ -117,3 +120,4 @@ The template has been expanded into a full e-commerce application called "YourSh
 | Initial | Template created with base setup |
 | 2026-02-17 | Built full e-commerce app: pastel design, auth (Google/Apple/Email), cart, checkout with payment UI |
 | 2026-02-17 | Added Settings with 10 themes (Pastel, Vibrant, Ocean, Sunset, Forest, Lavender, Candy, Dark, White, System), language selector, wishlist functionality, and share button |
+| 2026-02-17 | Implemented full internationalization (i18n) with next-intl for 8 languages, making the entire app and products translatable |

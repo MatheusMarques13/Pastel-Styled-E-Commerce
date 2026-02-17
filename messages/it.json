@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "newCollection": "✨ Nuova Collezione Primavera",
+    "title": "Scopri Il Tuo",
+    "titleHighlight": "Estetica",
+    "titleEnd": "Pastello",
+    "description": "Prodotti lifestyle curati in colori morbidi e sognanti. Dalla moda alla decorazione d'interni, trova la tua combinazione pastello perfetta."
+  },
+  "search": {
+    "placeholder": "Cerca prodotti..."
+  },
+  "categories": {
+    "all": "Tutti",
+    "clothing": "Abbigliamento",
+    "accessories": "Accessori",
+    "home": "Casa",
+    "beauty": "Bellezza",
+    "electronics": "Elettronica"
+  },
+  "products": {
+    "count": "{count} prodotto",
+    "countPlural": "{count} prodotti",
+    "noResults": "Nessun prodotto trovato. Prova una ricerca o categoria diversa.",
+    "items": {
+      "1": {
+        "name": "Maglione di Maglia Accogliente",
+        "description": "Un maglione di maglia meravigliosamente morbido in toni pastello. Perfetto per stratificare o indossare da solo nelle giornate più fresche. Realizzato con una miscela premium di cotone organico."
+      },
+      "2": {
+        "name": "Orologio Minimalista",
+        "description": "Orologio minimalista elegante con cinturino in pelle rosa pastello e accenti in oro rosa. Resistente all'acqua e perfetto per l'uso quotidiano."
+      },
+      "3": {
+        "name": "Set Vasi Ceramici",
+        "description": "Set di 3 vasi ceramici artigianali in tonalità pastello complementari. Ogni pezzo è unico e aggiunge un tocco di eleganza a qualsiasi stanza."
+      },
+      "4": {
+        "name": "Lozione Corporea alla Lavanda",
+        "description": "Lozione corporea lussuosa infusa con estratto reale di lavanda. Formula profondamente idratante che lascia la pelle setosa e delicatamente profumata."
+      },
+      "5": {
+        "name": "Auricolari Wireless",
+        "description": "Auricolari wireless premium in custodia menta pastello. Suono cristallino, cancellazione attiva del rumore e batteria da 24 ore."
+      },
+      "6": {
+        "name": "Sciarpa di Seta",
+        "description": "Sciarpa di seta 100% lussuosa con stampa acquerello sognante. Accessorio versatile che può essere indossato come fascia per capelli, sciarpa da collo o accento per borsa."
+      },
+      "7": {
+        "name": "Trio Candele Profumate",
+        "description": "Tre candele di soia versate a mano in vaniglia, rosa e gelsomino. Ogni candela brucia per 40+ ore e viene in un bel vaso di vetro pastello."
+      },
+      "8": {
+        "name": "Borsa Tote di Cotone",
+        "description": "Borsa tote resistente di cotone organico con design ricamato carino. Abbastanza spaziosa per la spesa, libri o essenziali quotidiani."
+      }
+    }
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Spedizione Gratuita",
+      "description": "Su ordini superiori a $50"
+    },
+    "easyReturns": {
+      "title": "Resi Facili",
+      "description": "Politica di reso di 30 giorni"
+    },
+    "securePayment": {
+      "title": "Pagamento Sicuro",
+      "description": "Checkout crittografato SSL"
+    },
+    "support": {
+      "title": "Supporto 24/7",
+      "description": "Sempre qui per aiutare"
+    }
+  },
+  "settings": {
+    "theme": "Tema",
+    "language": "Lingua",
+    "chooseTheme": "Scegli il tuo tema colore preferito",
+    "selectLanguage": "Seleziona la tua lingua preferita"
+  }
+}

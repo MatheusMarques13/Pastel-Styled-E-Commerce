@@ -3,7 +3,8 @@
 import { use, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { products } from "@/lib/data";
+import { useTranslations } from "next-intl";
+import { getProducts } from "@/lib/data";
 import { useCart } from "@/lib/cart-context";
 import { Button } from "@/components/ui/Button";
 import { StarIcon, ArrowLeftIcon, MinusIcon, PlusIcon, ShoppingBagIcon, HeartIcon } from "@/components/ui/Icons";
@@ -11,6 +12,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
 export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const t = useTranslations();
   const { id } = use(params);
   const router = useRouter();
   const { addItem } = useCart();
@@ -18,6 +20,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
   const [selectedColor, setSelectedColor] = useState(0);
   const [added, setAdded] = useState(false);
 
+  const products = getProducts(t);
   const product = products.find((p) => p.id === id);
 
   if (!product) {

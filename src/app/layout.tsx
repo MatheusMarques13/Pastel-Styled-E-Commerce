@@ -4,6 +4,8 @@ import { CartProvider } from "@/lib/cart-context";
 import { AuthProvider } from "@/lib/auth-context";
 import { ThemeProvider } from "@/lib/theme-context";
 import { WishlistProvider } from "@/lib/wishlist-context";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, getLocale } from "next-intl/server";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,29 +18,37 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "YourShop — Pastel Lifestyle Store",
-  description:
-    "Curated pastel lifestyle products for the modern aesthetic. Shop clothing, accessories, home decor, and more.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const messages = await getMessages();
 
-export default function RootLayout({
+  return {
+    title: "YourShop — Pastel Lifestyle Store",
+    description: messages.hero?.description as string || "Curated pastel lifestyle products for the modern aesthetic. Shop clothing, accessories, home decor, and more.",
+  };
+}
+
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AuthProvider>
-          <CartProvider>
-            <WishlistProvider>
-              <ThemeProvider>{children}</ThemeProvider>
-            </WishlistProvider>
-          </CartProvider>
-        </AuthProvider>
+        <NextIntlClientProvider messages={messages}>
+          <AuthProvider>
+            <CartProvider>
+              <WishlistProvider>
+                <ThemeProvider>{children}</ThemeProvider>
+              </WishlistProvider>
+            </CartProvider>
+          </AuthProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

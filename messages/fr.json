@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "newCollection": "✨ Nouvelle Collection Printemps",
+    "title": "Découvrez Votre",
+    "titleHighlight": "Esthétique",
+    "titleEnd": "Pastel",
+    "description": "Produits de style de vie curatés dans des couleurs douces et rêveuses. De la mode à la décoration intérieure, trouvez votre combinaison pastel parfaite."
+  },
+  "search": {
+    "placeholder": "Rechercher des produits..."
+  },
+  "categories": {
+    "all": "Tous",
+    "clothing": "Vêtements",
+    "accessories": "Accessoires",
+    "home": "Maison",
+    "beauty": "Beauté",
+    "electronics": "Électronique"
+  },
+  "products": {
+    "count": "{count} produit",
+    "countPlural": "{count} produits",
+    "noResults": "Aucun produit trouvé. Essayez une recherche ou une catégorie différente.",
+    "items": {
+      "1": {
+        "name": "Pull en Maille Douillet",
+        "description": "Un pull en maille merveilleusement doux dans des tons pastel. Parfait pour superposer ou porter seul pendant les journées plus fraîches. Fabriqué à partir d'un mélange premium de coton organique."
+      },
+      "2": {
+        "name": "Montre Minimaliste",
+        "description": "Montre minimaliste élégante avec bracelet en cuir rose pastel et accents or rose. Résistante à l'eau et parfaite pour un usage quotidien."
+      },
+      "3": {
+        "name": "Set de Vases Céramiques",
+        "description": "Set de 3 vases céramiques artisanaux dans des tons pastel complémentaires. Chaque pièce est unique et ajoute une touche d'élégance à n'importe quelle pièce."
+      },
+      "4": {
+        "name": "Lotion Corporelle Lavande",
+        "description": "Lotion corporelle luxueuse infusée d'extrait réel de lavande. Formule profondément hydratante qui laisse la peau soyeuse et délicatement parfumée."
+      },
+      "5": {
+        "name": "Écouteurs Sans Fil",
+        "description": "Écouteurs sans fil premium dans un étui menthe pastel. Son cristallin, annulation active du bruit et autonomie de 24 heures."
+      },
+      "6": {
+        "name": "Écharpe en Soie",
+        "description": "Écharpe en soie 100% luxueuse avec une impression aquarelle rêveuse. Accessoire polyvalent qui peut être porté comme bandeau, écharpe de cou ou accent de sac."
+      },
+      "7": {
+        "name": "Trio de Bougies Parfumées",
+        "description": "Trois bougies en soja coulées à la main en vanille, rose et jasmin. Chaque bougie brûle pendant 40+ heures et vient dans un beau pot en verre pastel."
+      },
+      "8": {
+        "name": "Sac Tote en Coton",
+        "description": "Sac tote résistant en coton organique avec un design brodé adorable. Assez spacieux pour les courses, les livres ou les essentiels quotidiens."
+      }
+    }
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Livraison Gratuite",
+      "description": "Sur les commandes de plus de 50 $"
+    },
+    "easyReturns": {
+      "title": "Retours Faciles",
+      "description": "Politique de retour de 30 jours"
+    },
+    "securePayment": {
+      "title": "Paiement Sécurisé",
+      "description": "Paiement chiffré SSL"
+    },
+    "support": {
+      "title": "Support 24/7",
+      "description": "Toujours là pour aider"
+    }
+  },
+  "settings": {
+    "theme": "Thème",
+    "language": "Langue",
+    "chooseTheme": "Choisissez votre thème de couleur préféré",
+    "selectLanguage": "Sélectionnez votre langue préférée"
+  }
+}

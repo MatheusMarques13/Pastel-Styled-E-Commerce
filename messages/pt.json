@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "newCollection": "✨ Nova Coleção Primavera",
+    "title": "Descubra Sua",
+    "titleHighlight": "Estética",
+    "titleEnd": "Pastel",
+    "description": "Produtos de estilo de vida curados em cores suaves e sonhadoras. Da moda à decoração de casa, encontre sua combinação pastel perfeita."
+  },
+  "search": {
+    "placeholder": "Buscar produtos..."
+  },
+  "categories": {
+    "all": "Todos",
+    "clothing": "Roupas",
+    "accessories": "Acessórios",
+    "home": "Casa",
+    "beauty": "Beleza",
+    "electronics": "Eletrônicos"
+  },
+  "products": {
+    "count": "{count} produto",
+    "countPlural": "{count} produtos",
+    "noResults": "Nenhum produto encontrado. Tente uma pesquisa ou categoria diferente.",
+    "items": {
+      "1": {
+        "name": "Suéter de Tricô Aconchegante",
+        "description": "Um suéter de tricô maravilhosamente macio em tons pastel. Perfeito para camadas ou usar sozinho em dias mais frios. Feito de mistura premium de algodão orgânico."
+      },
+      "2": {
+        "name": "Relógio Minimalista",
+        "description": "Relógio minimalista elegante com pulseira de couro rosa pastel e acentos em ouro rosa. À prova d'água e perfeito para uso diário."
+      },
+      "3": {
+        "name": "Conjunto de Vasos Cerâmicos",
+        "description": "Conjunto de 3 vasos cerâmicos artesanais em tons pastel complementares. Cada peça é única e adiciona um toque de elegância a qualquer cômodo."
+      },
+      "4": {
+        "name": "Loção Corporal de Lavanda",
+        "description": "Loção corporal luxuosa infundida com extrato real de lavanda. Fórmula profundamente hidratante que deixa a pele sedosa e delicadamente perfumada."
+      },
+      "5": {
+        "name": "Fones de Ouvido Sem Fio",
+        "description": "Fones de ouvido sem fio premium em estojo menta pastel. Som cristalino, cancelamento ativo de ruído e bateria de 24 horas."
+      },
+      "6": {
+        "name": "Cachecol de Seda",
+        "description": "Cachecol de seda 100% luxuoso com estampa aquarela sonhadora. Acessório versátil que pode ser usado como faixa de cabelo, cachecol de pescoço ou acento para bolsa."
+      },
+      "7": {
+        "name": "Trio de Velas Aromáticas",
+        "description": "Três velas de soja derramadas à mão em baunilha, rosa e jasmim. Cada vela queima por 40+ horas e vem em um belo pote de vidro pastel."
+      },
+      "8": {
+        "name": "Bolsa Tote de Algodão",
+        "description": "Bolsa tote resistente de algodão orgânico com design bordado fofo. Espaçosa o suficiente para compras, livros ou essenciais diários."
+      }
+    }
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Frete Grátis",
+      "description": "Em pedidos acima de $50"
+    },
+    "easyReturns": {
+      "title": "Devoluções Fáceis",
+      "description": "Política de devolução de 30 dias"
+    },
+    "securePayment": {
+      "title": "Pagamento Seguro",
+      "description": "Checkout criptografado SSL"
+    },
+    "support": {
+      "title": "Suporte 24/7",
+      "description": "Sempre aqui para ajudar"
+    }
+  },
+  "settings": {
+    "theme": "Tema",
+    "language": "Idioma",
+    "chooseTheme": "Escolha seu tema de cor preferido",
+    "selectLanguage": "Selecione seu idioma preferido"
+  }
+}
