@@ -17,9 +17,9 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl">🌸</span>
+            <span className="text-2xl">🚀</span>
             <span className="text-xl font-bold text-white">
-              Petal<span className="text-pink-100">Shop</span>
+              Your<span className="text-pink-100">Shop</span>
             </span>
           </Link>
 

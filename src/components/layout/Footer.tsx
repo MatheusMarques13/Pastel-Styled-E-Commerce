@@ -8,9 +8,9 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🌸</span>
+              <span className="text-2xl">🚀</span>
               <span className="text-xl font-bold text-white">
-                Petal<span className="text-red-200">Shop</span>
+                Your<span className="text-red-200">Shop</span>
               </span>
             </Link>
             <p className="text-red-100 text-sm">
@@ -78,7 +78,7 @@ export function Footer() {
 
         <div className="mt-10 pt-6 border-t border-red-500 text-center">
           <p className="text-sm text-red-200">
-            © 2026 PetalShop. Made with 💜 and pastels.
+            © 2026 YourShop. Made with 💜 and pastels.
           </p>
         </div>
       </div>

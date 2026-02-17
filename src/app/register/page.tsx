@@ -65,9 +65,9 @@ export default function RegisterPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2">
-            <span className="text-3xl">🌸</span>
+            <span className="text-3xl">🚀</span>
             <span className="text-2xl font-bold text-text-primary">
-              Petal<span className="text-primary">Shop</span>
+              Your<span className="text-primary">Shop</span>
             </span>
           </Link>
           <p className="text-text-secondary mt-2">Create your account to get started.</p>

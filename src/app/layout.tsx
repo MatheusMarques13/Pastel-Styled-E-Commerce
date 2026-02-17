@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PetalShop — Pastel Lifestyle Store",
+  title: "YourShop — Pastel Lifestyle Store",
   description:
     "Curated pastel lifestyle products for the modern aesthetic. Shop clothing, accessories, home decor, and more.",
 };

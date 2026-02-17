@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           {/* Decorative elements */}
-          <div className="absolute top-10 left-10 text-4xl opacity-30 animate-bounce">🌸</div>
+          <div className="absolute top-10 left-10 text-4xl opacity-30 animate-bounce">🚀</div>
           <div className="absolute bottom-10 right-10 text-4xl opacity-30 animate-bounce" style={{ animationDelay: "0.5s" }}>🦋</div>
           <div className="absolute top-1/2 right-20 text-3xl opacity-20 animate-bounce" style={{ animationDelay: "1s" }}>✨</div>
         </section>
