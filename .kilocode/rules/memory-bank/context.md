@@ -2,7 +2,7 @@
 
 ## Current State
 
-**App Status**: ✅ E-commerce app with pastel design, auth, and payment system
+**App Status**: ✅ E-commerce app with vibrant header/footer colors, auth, and payment system
 
 The template has been expanded into a full e-commerce application called "PetalShop" with a pastel aesthetic design, authentication system (Google, Apple, Email), shopping cart, and checkout with payment.
 
@@ -26,6 +26,8 @@ The template has been expanded into a full e-commerce application called "PetalS
 - [x] Footer with navigation links
 - [x] Category filtering and search functionality
 - [x] Hero section with animated decorative elements
+- [x] Header updated to vibrant pink (#ec4899 / pink-500)
+- [x] Footer updated to vibrant red (#dc2626 / red-600)
 
 ## Current Structure
 

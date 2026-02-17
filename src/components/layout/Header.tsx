@@ -12,14 +12,14 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
+    <header className="sticky top-0 z-50 bg-pink-500/90 backdrop-blur-md border-b border-pink-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl">🌸</span>
-            <span className="text-xl font-bold text-text-primary">
-              Petal<span className="text-primary">Shop</span>
+            <span className="text-xl font-bold text-white">
+              Petal<span className="text-pink-100">Shop</span>
             </span>
           </Link>
 
@@ -27,19 +27,19 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <Link
               href="/"
-              className="text-text-secondary hover:text-text-primary font-medium"
+              className="text-pink-100 hover:text-white font-medium"
             >
               Shop
             </Link>
             <Link
               href="/#categories"
-              className="text-text-secondary hover:text-text-primary font-medium"
+              className="text-pink-100 hover:text-white font-medium"
             >
               Categories
             </Link>
             <Link
               href="/#new"
-              className="text-text-secondary hover:text-text-primary font-medium"
+              className="text-pink-100 hover:text-white font-medium"
             >
               New Arrivals
             </Link>
@@ -47,13 +47,13 @@ export function Header() {
 
           {/* Actions */}
           <div className="flex items-center gap-4">
-            <button className="p-2 text-text-secondary hover:text-text-primary rounded-full hover:bg-surface-alt">
+            <button className="p-2 text-pink-100 hover:text-white rounded-full hover:bg-pink-600">
               <SearchIcon />
             </button>
 
             {user ? (
               <div className="relative group">
-                <button className="p-2 text-text-secondary hover:text-text-primary rounded-full hover:bg-surface-alt">
+                <button className="p-2 text-pink-100 hover:text-white rounded-full hover:bg-pink-600">
                   <UserIcon />
                 </button>
                 <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-xl shadow-lg border border-border py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
@@ -71,7 +71,7 @@ export function Header() {
             ) : (
               <Link
                 href="/login"
-                className="p-2 text-text-secondary hover:text-text-primary rounded-full hover:bg-surface-alt"
+                className="p-2 text-pink-100 hover:text-white rounded-full hover:bg-pink-600"
               >
                 <UserIcon />
               </Link>
@@ -79,7 +79,7 @@ export function Header() {
 
             <Link
               href="/cart"
-              className="relative p-2 text-text-secondary hover:text-text-primary rounded-full hover:bg-surface-alt"
+              className="relative p-2 text-pink-100 hover:text-white rounded-full hover:bg-pink-600"
             >
               <ShoppingBagIcon />
               {totalItems > 0 && (
@@ -91,7 +91,7 @@ export function Header() {
 
             {/* Mobile menu button */}
             <button
-              className="md:hidden p-2 text-text-secondary hover:text-text-primary"
+              className="md:hidden p-2 text-pink-100 hover:text-white"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <XIcon /> : <MenuIcon />}
@@ -101,25 +101,25 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-border">
+          <nav className="md:hidden py-4 border-t border-pink-400">
             <div className="flex flex-col gap-3">
               <Link
                 href="/"
-                className="text-text-secondary hover:text-text-primary font-medium py-2"
+                className="text-pink-100 hover:text-white font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Shop
               </Link>
               <Link
                 href="/#categories"
-                className="text-text-secondary hover:text-text-primary font-medium py-2"
+                className="text-pink-100 hover:text-white font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Categories
               </Link>
               <Link
                 href="/#new"
-                className="text-text-secondary hover:text-text-primary font-medium py-2"
+                className="text-pink-100 hover:text-white font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 New Arrivals
@@ -127,7 +127,7 @@ export function Header() {
               {!user && (
                 <Link
                   href="/login"
-                  className="text-primary hover:text-primary-dark font-medium py-2"
+                  className="text-white hover:text-pink-100 font-medium py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Sign In
