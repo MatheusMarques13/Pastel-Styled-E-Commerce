@@ -19,7 +19,7 @@
   --color-pastel-gray: #f0ebe3;
   --color-pastel-gray-dark: #d5cec5;
 
-  /* Semantic Colors */
+  /* Semantic Colors - Default Pastel */
   --color-primary: #d1b3e8;
   --color-primary-dark: #b794d6;
   --color-secondary: #f8b4c8;
@@ -35,12 +35,44 @@
   --color-text-secondary: #7a6f8a;
   --color-text-muted: #a89bb5;
   --color-border: #e8e0d8;
+  
+  /* Header/Footer Theme Colors */
+  --color-header-bg: rgba(236, 72, 153, 0.9);
+  --color-header-text: #ffffff;
+  --color-header-text-muted: #fce7f3;
+  --color-header-border: #db2777;
+  --color-footer-bg: #dc2626;
+  --color-footer-text: #ffffff;
 }
 
 body {
   background-color: var(--color-surface);
   color: var(--color-text-primary);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Theme-aware header styles */
+.theme-header {
+  background-color: var(--color-header-bg);
+  border-color: var(--color-header-border);
+}
+
+.theme-header-text {
+  color: var(--color-header-text);
+}
+
+.theme-header-text-muted {
+  color: var(--color-header-text-muted);
+}
+
+.theme-header-hover:hover {
+  background-color: var(--color-header-border);
+}
+
+/* Theme-aware footer styles */
+.theme-footer {
+  background-color: var(--color-footer-bg);
+  color: var(--color-footer-text);
 }
 
 /* Smooth transitions for interactive elements */

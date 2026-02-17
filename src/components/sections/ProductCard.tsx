@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { Product } from "@/lib/data";
 import { useCart } from "@/lib/cart-context";
-import { StarIcon, ShoppingBagIcon } from "@/components/ui/Icons";
+import { useWishlist } from "@/lib/wishlist-context";
+import { StarIcon, ShoppingBagIcon, HeartIcon } from "@/components/ui/Icons";
 
 interface ProductCardProps {
   product: Product;
@@ -11,6 +12,8 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCart();
+  const { toggleItem, isInWishlist } = useWishlist();
+  const inWishlist = isInWishlist(product.id);
 
   return (
     <div className="group bg-white rounded-2xl border border-border overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
@@ -53,18 +56,31 @@ export function ProductCard({ product }: ProductCardProps) {
           <span className="text-xs text-text-muted">({product.reviews})</span>
         </div>
 
-        {/* Price & Add to Cart */}
+        {/* Price & Actions */}
         <div className="flex items-center justify-between mt-3">
           <span className="text-lg font-bold text-text-primary">
             ${product.price.toFixed(2)}
           </span>
-          <button
-            onClick={() => addItem(product)}
-            className="p-2 bg-primary/10 text-primary rounded-xl hover:bg-primary hover:text-white transition-all duration-200"
-            aria-label="Add to cart"
-          >
-            <ShoppingBagIcon className="w-4 h-4" />
-          </button>
+          <div className="flex gap-2">
+            <button
+              onClick={() => toggleItem(product)}
+              className={`p-2 rounded-xl transition-all duration-200 ${
+                inWishlist
+                  ? "bg-danger text-white"
+                  : "bg-danger/10 text-danger hover:bg-danger hover:text-white"
+              }`}
+              aria-label={inWishlist ? "Remove from wishlist" : "Add to wishlist"}
+            >
+              <HeartIcon className="w-4 h-4" filled={inWishlist} />
+            </button>
+            <button
+              onClick={() => addItem(product)}
+              className="p-2 bg-primary/10 text-primary rounded-xl hover:bg-primary hover:text-white transition-all duration-200"
+              aria-label="Add to cart"
+            >
+              <ShoppingBagIcon className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
