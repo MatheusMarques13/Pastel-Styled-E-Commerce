@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useCart } from "@/lib/cart-context";
 import { useAuth } from "@/lib/auth-context";
-import { ShoppingBagIcon, UserIcon, SearchIcon, MenuIcon, XIcon } from "@/components/ui/Icons";
+import { ShoppingBagIcon, UserIcon, SearchIcon, MenuIcon, XIcon, RocketIcon } from "@/components/ui/Icons";
 
 export function Header() {
   const { totalItems } = useCart();
@@ -17,7 +17,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl">🚀</span>
+            <RocketIcon className="w-8 h-8" />
             <span className="text-xl font-bold text-white">
               Your<span className="text-pink-100">Shop</span>
             </span>

@@ -7,7 +7,7 @@ import { useAuth } from "@/lib/auth-context";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Card } from "@/components/ui/Card";
-import { GoogleIcon, AppleIcon, MailIcon, LockIcon } from "@/components/ui/Icons";
+import { GoogleIcon, AppleIcon, MailIcon, LockIcon, RocketIcon } from "@/components/ui/Icons";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -55,7 +55,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2">
-            <span className="text-3xl">🚀</span>
+            <RocketIcon className="w-10 h-10" />
             <span className="text-2xl font-bold text-text-primary">
               Your<span className="text-primary">Shop</span>
             </span>

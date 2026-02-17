@@ -1,3 +1,77 @@
+export function RocketIcon({ className = "w-8 h-8" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Rocket body */}
+      <path
+        d="M32 4C32 4 20 18 20 36c0 6 2 10 4 13l8 5 8-5c2-3 4-7 4-13C44 18 32 4 32 4z"
+        fill="url(#rocketBody)"
+        stroke="white"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
+      {/* Rocket window */}
+      <circle cx="32" cy="26" r="5" fill="url(#rocketWindow)" stroke="white" strokeWidth="1.2" />
+      <circle cx="32" cy="26" r="2.5" fill="white" opacity="0.5" />
+      {/* Left fin */}
+      <path
+        d="M20 36c-4 2-8 8-9 12l9-4v-8z"
+        fill="url(#finGradient)"
+        stroke="white"
+        strokeWidth="1"
+        strokeLinejoin="round"
+      />
+      {/* Right fin */}
+      <path
+        d="M44 36c4 2 8 8 9 12l-9-4v-8z"
+        fill="url(#finGradient)"
+        stroke="white"
+        strokeWidth="1"
+        strokeLinejoin="round"
+      />
+      {/* Flame */}
+      <path
+        d="M28 54c0 0 2 6 4 8 2-2 4-8 4-8"
+        fill="url(#flameOuter)"
+        opacity="0.9"
+      />
+      <path
+        d="M30 54c0 0 1 4 2 5.5 1-1.5 2-5.5 2-5.5"
+        fill="url(#flameInner)"
+        opacity="0.9"
+      />
+      {/* Sparkle accents */}
+      <circle cx="16" cy="20" r="1.2" fill="white" opacity="0.6" />
+      <circle cx="48" cy="16" r="0.8" fill="white" opacity="0.5" />
+      <circle cx="12" cy="30" r="0.6" fill="white" opacity="0.4" />
+      <circle cx="52" cy="28" r="1" fill="white" opacity="0.5" />
+      {/* Gradients */}
+      <defs>
+        <linearGradient id="rocketBody" x1="32" y1="4" x2="32" y2="54" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#fce4ec" />
+          <stop offset="50%" stopColor="#f8bbd0" />
+          <stop offset="100%" stopColor="#f48fb1" />
+        </linearGradient>
+        <linearGradient id="rocketWindow" x1="27" y1="21" x2="37" y2="31" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#e1bee7" />
+          <stop offset="100%" stopColor="#ce93d8" />
+        </linearGradient>
+        <linearGradient id="finGradient" x1="0" y1="36" x2="0" y2="48" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#f48fb1" />
+          <stop offset="100%" stopColor="#ec407a" />
+        </linearGradient>
+        <linearGradient id="flameOuter" x1="32" y1="54" x2="32" y2="62" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#ffab91" />
+          <stop offset="100%" stopColor="#ff7043" />
+        </linearGradient>
+        <linearGradient id="flameInner" x1="32" y1="54" x2="32" y2="60" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#fff9c4" />
+          <stop offset="100%" stopColor="#ffcc02" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
+
 export function GoogleIcon({ className = "w-5 h-5" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24">

@@ -8,6 +8,7 @@ import { useAuth } from "@/lib/auth-context";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Card } from "@/components/ui/Card";
+import { RocketIcon } from "@/components/ui/Icons";
 import { ArrowLeftIcon, CreditCardIcon, LockIcon, CheckIcon } from "@/components/ui/Icons";
 
 type Step = "shipping" | "payment" | "confirmation";
@@ -92,7 +93,7 @@ export default function CheckoutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl">🚀</span>
+              <RocketIcon className="w-8 h-8" />
               <span className="text-xl font-bold text-text-primary">
                 Your<span className="text-primary">Shop</span>
               </span>

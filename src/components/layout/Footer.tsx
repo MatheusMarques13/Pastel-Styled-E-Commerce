@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RocketIcon } from "@/components/ui/Icons";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🚀</span>
+              <RocketIcon className="w-8 h-8" />
               <span className="text-xl font-bold text-white">
                 Your<span className="text-red-200">Shop</span>
               </span>

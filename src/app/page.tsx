@@ -5,7 +5,7 @@ import { products, categories } from "@/lib/data";
 import { ProductCard } from "@/components/sections/ProductCard";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { SearchIcon } from "@/components/ui/Icons";
+import { SearchIcon, RocketIcon } from "@/components/ui/Icons";
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           {/* Decorative elements */}
-          <div className="absolute top-10 left-10 text-4xl opacity-30 animate-bounce">🚀</div>
+          <div className="absolute top-10 left-10 opacity-30 animate-bounce"><RocketIcon className="w-12 h-12" /></div>
           <div className="absolute bottom-10 right-10 text-4xl opacity-30 animate-bounce" style={{ animationDelay: "0.5s" }}>🦋</div>
           <div className="absolute top-1/2 right-20 text-3xl opacity-20 animate-bounce" style={{ animationDelay: "1s" }}>✨</div>
         </section>

@@ -30,6 +30,7 @@ The template has been expanded into a full e-commerce application called "PetalS
 - [x] Footer updated to vibrant red (#dc2626 / red-600)
 - [x] Rebranded from "PetalShop" to "YourShop" across all pages
 - [x] Changed logo icon from 🌸 (petal) to 🚀 (rocket) everywhere
+- [x] Replaced rocket emoji with custom SVG RocketIcon (pink gradient, harmonizes with header)
 
 ## Current Structure
 
